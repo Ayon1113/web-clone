@@ -1,0 +1,114 @@
+
+
+.playfair-display-cool {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+section{
+    background-color: #021a22;
+    max-height: 80vh;
+}
+
+.title-container{
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+.title-container img{
+   max-width: 100%;
+   
+}
+
+.title-text{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    font-family: "Playfair Display, serif";
+    font-size: 3vw;
+    font-weight: bold;
+    color: #021a22;
+    text-shadow: 
+    white 0.025em 0.025em 0,
+    #021a22 0.05em 0.05em 0;
+}
+
+.about-container{
+    background-color: #02171f;
+    position: relative;
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.photo{
+    width: 15rem;
+    height: 20rem;
+    border-radius: 20em;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.photo-text{
+    color: white;
+    font-size: 1vw;
+    padding-bottom: 2rem;
+}
+
+.about-container h2{
+    color: white;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 10px;
+    padding-top: 2rem;
+}
+
+.grid-container h2{
+    color: white;
+}
+
+.skills{
+    background-color: #02171f;
+
+}
+
+.contact{
+    background-color: #02171f;
+}
+
+li{
+    
+    color: white;
+    padding-top: 1rem;
+}
+
+/*.grid-container h2{
+    background: -webkit-linear-gradient(#eee, #9ec446);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+*/
+.grid-container h2{
+    text-decoration: underline;
+}
+
